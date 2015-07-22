@@ -1,0 +1,23 @@
+html,
+body {
+  background-color: #EFF7F6;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.outer-wrapper {
+  text-align: center;
+  height: 100%;
+  background-image: url('img/full-bg.png');
+  background-size: cover;
+}
+.outer-wrapper img {
+  position: fixed;
+  max-height: 80%;
+  max-width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 9px;
+  border: 7px rgba(255, 255, 255, 1) solid;
+}
